@@ -1,0 +1,22 @@
+{
+    "name": "solve/graphics",
+    "type": "library",
+    "description": " - [ Graphics ] Image service",
+    "keywords": ["graphic","image","convert"],
+    "homepage": "http://github.com/Solve/Graphics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandr Viniychuk",
+            "email": "alexandr.viniychuk@icloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "solve/fsservice": "*"
+    },
+    "autoload": {
+        "psr-0": { "Solve\\Utils\\": "" }
+    },
+    "target-dir": "Solve/Utils"
+}
