@@ -64,7 +64,7 @@ class ImageProcessor {
         }
 
         if (strpos($adapterName, '\\') === false) {
-            $adapterClass = '\\Solve\\Graphics\\' . $adapterName . 'ImageAdapter';
+            $adapterClass = '\\Solve\\Graphics\\Adapters\\' . $adapterName . 'ImageAdapter';
         }
         if (!class_exists($adapterClass)) throw new \Exception('Adapter class not found ' . $adapterClass);
         self::$_imageAdapters[$adapterName] = new $adapterClass();

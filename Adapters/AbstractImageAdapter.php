@@ -7,8 +7,10 @@
  * created: 11.10.14 10:18
  */
 
-namespace Solve\Graphics;
+namespace Solve\Graphics\Adapters;
 
+
+use Solve\Graphics\ImageProcessor;
 
 abstract class AbstractImageAdapter {
 

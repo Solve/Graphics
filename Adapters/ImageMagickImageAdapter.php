@@ -7,7 +7,7 @@
  * created: 13.10.14 08:14
  */
 
-namespace Solve\Graphics;
+namespace Solve\Graphics\Adapters;
 
 
 class ImageMagicImageAdapter extends AbstractImageAdapter {
