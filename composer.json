@@ -16,7 +16,7 @@
         "solve/fsservice": "*"
     },
     "autoload": {
-        "psr-0": { "Solve\\Utils\\": "" }
+        "psr-0": { "Solve\\Graphics\\": "" }
     },
-    "target-dir": "Solve/Utils"
+    "target-dir": "Solve/Graphics"
 }
