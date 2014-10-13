@@ -33,10 +33,6 @@ class ImageProcessorTest extends \PHPUnit_Framework_TestCase {
         $im->saveAs($assetsRoot . 'flower-100x62.jpg');
     }
 
-    public static function tearDownAfterClass() {
-//        FSService::unlinkRecursive(__DIR__ . '/assets/');
-    }
-
 
 }
  
